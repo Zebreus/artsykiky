@@ -1,0 +1,300 @@
+body {
+  font: 16px/26px "Helvetica Neue", Arial, sans-serif;
+  overflow: hidden;
+  background-color: #f5f0eb;
+}
+
+
+ul.area {
+  margin: 2em auto;
+  padding: 0;
+  position: relative;
+  width: 1150px;
+  height: 200px;
+  overflow: hidden;
+}
+li {
+  background: #8d0000;
+  display: inline-block;
+  list-style-type: none;
+  margin: 0 0.8em;
+  width: 20px;
+  height: 200px;
+}
+.error,
+.exit {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+}
+
+.error {
+  background: #8d0000;
+  color:#f5f0eb;
+}
+
+.error:hover {
+  display: block;
+}
+li:hover ~ .error {
+  display: block;
+}
+.exit {
+  background: #adcbcf;
+  color:#f5f0eb;
+}
+
+.exit:hover {
+  display: block;
+}
+
+h1 {
+  text-align: center;
+  font-size: 16px !important;
+  line-height: 200px;
+  font-family:"Times New Roman" , Helvetica Neue, Arial, sans-serif;
+}
+
+h2 {
+  font-family:"Times New Roman" , Helvetica Neue, Arial, sans-serif;
+  text-align: center;
+  color: #505152;
+}
+
+p {
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  font-size: 0.65em;
+  text-align: center;
+  color: #505152;
+}
+
+.empty,
+.first {
+  background: #505152;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 5px;
+}
+.empty {
+  bottom: 0;
+  left: 0;
+}
+.first {
+  top: 0px;
+  left: 0;
+  z-index: 3;
+}
+/*------- input -------*/
+
+input[type="checkbox"] {
+  background: #505152;
+  border-radius: 100%;
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  margin-bottom: 90px;
+  width: 20px;
+  height: 20px;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  outline: 0;
+}
+input[type="checkbox"]:checked {
+  background: #8d0000;
+}
+input#second:after,
+input#third:after,
+input#fourth:after {
+  color: #f5f0eb;
+  font-size: 0.8em;
+  position: absolute;
+  line-height: 20px;
+  padding-left: 7px;
+}
+input#second:after {
+  content: "1";
+}
+input#third:after {
+  content: "2";
+}
+input#fourth:after {
+  content: "3";
+}
+/*-------- paused animation --------*/
+
+.level2,
+.level3,
+.level4 {
+  -webkit-animation-play-state: paused;
+          animation-play-state: paused;
+}
+/*----- animation top - bottom -----*/
+li:nth-child(1) {
+  -webkit-animation: xscale 4s infinite;
+          animation: xscale 4s infinite;
+}
+li:nth-child(26) {
+  -webkit-animation: xscale 3.5s infinite;
+          animation: xscale 3.5s infinite;
+}
+/*------- LEVEL 1 -------*/
+li:nth-child(2) {
+  -webkit-animation: down 3s infinite;
+          animation: down 3s infinite;
+}
+li:nth-child(3) {
+  -webkit-animation: up 2.5s infinite;
+          animation: up 2.5s infinite;
+}
+li:nth-child(4) {
+  -webkit-animation: up 2s infinite;
+          animation: up 2s infinite;
+}
+li:nth-child(5) {
+  -webkit-animation: down 2.5s infinite;
+          animation: down 2.5s infinite;
+}
+li:nth-child(6) {
+  -webkit-animation: up 2s infinite;
+          animation: up 2s infinite;
+}
+input#second:checked ~ .level2 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+/*--------- LEVEL 2 ---------*/
+li:nth-child(8) {
+  -webkit-animation: down 2.5s infinite;
+          animation: down 2.5s infinite;
+}
+li:nth-child(9) {
+  -webkit-animation: up 2s infinite;
+          animation: up 2s infinite;
+}
+li:nth-child(10) {
+  -webkit-animation: down 1.5s infinite;
+          animation: down 1.5s infinite;
+}
+li:nth-child(11) {
+  -webkit-animation: up 2s infinite;
+          animation: up 2s infinite;
+}
+li:nth-child(12) {
+  -webkit-animation: up 1.5s infinite;
+          animation: up 1.5s infinite;
+}
+input#third:checked ~ .level3 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+/*------- LEVEL 3 -------*/
+li:nth-child(13) {
+  -webkit-animation: up 1.8s infinite;
+          animation: up 1.8s infinite;
+}
+li:nth-child(14) {
+  -webkit-animation: down 1.5s infinite;
+          animation: down 1.5s infinite;
+}
+li:nth-child(15) {
+  -webkit-animation: up 1.8s infinite;
+          animation: up 1.8s infinite;
+}
+li:nth-child(16) {
+  -webkit-animation: down 1.5s infinite;
+          animation: down 1.5s infinite;
+}
+li:nth-child(17) {
+  -webkit-animation: up 1.2s infinite;
+          animation: up 1.2s infinite;
+}
+li:nth-child(18) {
+  -webkit-animation: up 1s infinite;
+          animation: up 1s infinite;
+}
+input#fourth:checked ~ .level4 {
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+/*-------- LEVEL 4 --------*/
+li:nth-child(19) {
+  -webkit-animation: up 1.2s infinite;
+          animation: up 1.2s infinite;
+}
+li:nth-child(20) {
+  -webkit-animation: down 1s infinite;
+          animation: down 1s infinite;
+}
+li:nth-child(21) {
+  -webkit-animation: up 1.2s infinite;
+          animation: up 1.2s infinite;
+}
+li:nth-child(22) {
+  -webkit-animation: down 1s infinite;
+          animation: down 1s infinite;
+}
+li:nth-child(23) {
+  -webkit-animation: up 0.8s infinite;
+          animation: up 0.8s infinite;
+}
+li:nth-child(24) {
+  background: #8d0000;
+}
+li:nth-child(24):hover ~ .exit {
+  display: block;
+}
+/*------ animation ------*/
+@-webkit-keyframes up {
+  0% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(100px) translateZ(0);
+  }
+}
+@keyframes up {
+  0% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(100px) translateZ(0);
+  }
+}
+@-webkit-keyframes down {
+  0% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(-100px) translateZ(0);
+  }
+}
+@keyframes down {
+  0% {
+    transform: translateY(0px) translateZ(0);
+  }
+  50% {
+    transform: translateY(-100px) translateZ(0);
+  }
+}
+@-webkit-keyframes xscale {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 40px;
+  }
+}
+@keyframes xscale {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 40px;
+  }
+}

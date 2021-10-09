@@ -1,10 +1,6 @@
-:root {
-  --boxColor: #0ff7;
-  --rotateSpeed: 30s;
-  --bounceSpeed: 2s;
-}
 
-body {
+
+.wrapper {
   background-color: #000;
   min-height: 100vh;
   display: flex;
@@ -13,7 +9,11 @@ body {
   font-size: 75px;
   perspective: 10em;
   perspective-origin: 50% calc(50% - 2em);
-}
+
+    --boxColor: #0ff7;
+    --rotateSpeed: 30s;
+    --bounceSpeed: 2s;
+
 
 .scene {
   position: relative;
@@ -136,4 +136,6 @@ body {
      #222 90deg 180deg
   );
   background-size: 100%, 1em 1em;
+}
+
 }

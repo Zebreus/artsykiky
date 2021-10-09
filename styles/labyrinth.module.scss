@@ -1,9 +1,5 @@
-body {
-  font: 16px/26px "Helvetica Neue", Arial, sans-serif;
-  overflow: hidden;
-  background-color: #f5f0eb;
-}
 
+.wrapper {
 
 ul.area {
   margin: 2em auto;
@@ -297,4 +293,5 @@ li:nth-child(24):hover ~ .exit {
   50% {
     height: 40px;
   }
+}
 }

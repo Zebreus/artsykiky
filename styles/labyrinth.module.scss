@@ -104,6 +104,26 @@ input[type="checkbox"] {
 input[type="checkbox"]:checked {
   background: #8d0000;
 }
+
+input#second:before,
+input#third:before,
+input#fourth:before {
+  color: #f5f0eb;
+  font-size: 0.8em;
+  position: absolute;
+  line-height: 20px;
+  padding-left: 7px;
+}
+input#second:before {
+  content: "1";
+}
+input#third:before {
+  content: "2";
+}
+input#fourth:before {
+  content: "3";
+}
+
 input#second:after,
 input#third:after,
 input#fourth:after {

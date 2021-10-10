@@ -19,19 +19,19 @@ function Labyrinth() {
             <li></li>
             <li></li>
             <li></li>
-            <input id="second" type="checkbox" />
+            <input id="second" type="checkbox" value="1"/>
             <li className={styles.level2}></li>
             <li className={styles.level2}></li>
             <li className={styles.level2}></li>
             <li className={styles.level2}></li>
             <li className={styles.level2}></li>
-            <input id="third" type="checkbox" />
+            <input id="third" type="checkbox" value="2"/>
             <li className={styles.level3}></li>
             <li className={styles.level3}></li>
             <li className={styles.level3}></li>
             <li className={styles.level3}></li>
             <li className={styles.level3}></li>
-            <input id="fourth" type="checkbox" />
+            <input id="fourth" type="checkbox" value="3"/>
             <li className={styles.level4}></li>
             <li className={styles.level4}></li>
             <li className={styles.level4}></li>

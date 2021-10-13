@@ -47,7 +47,9 @@ function Labyrinth() {
                 <h1>Winning doesn´t always mean being first. Winning means you´re doing better than you´ve ever done before.</h1>
             </li>
         </ul>
-        <p>Winners:</p></div>
+        <p>Winners:</p>
+        <p> @bolverblitz</p>
+    </div>
 }
 
 export default Labyrinth

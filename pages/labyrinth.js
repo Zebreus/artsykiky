@@ -48,7 +48,7 @@ function Labyrinth() {
             </li>
         </ul>
         <p>Winners:</p>
-        <p> @bolverblitz</p>
+        <p>@bolverblitz</p>
     </div>
 }
 

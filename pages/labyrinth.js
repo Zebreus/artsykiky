@@ -7,10 +7,10 @@ function Labyrinth() {
             <title>Labyrinth</title>
         </Head>
         <div className={styles.intro}>
-        <h2>Labyrinth by artsykiky</h2>
-        <p>Reach the end from the beginning.</p>
-        <p>Click on the numbers as you pass them.</p>
-    </div>
+            <h2>Labyrinth by artsykiky</h2>
+            <p>Reach the end from the beginning.</p>
+            <p>Click on the numbers as you pass them.</p>
+        </div>
 
         <ul className={styles.area}>
             <li className={styles.first}></li>
@@ -47,8 +47,10 @@ function Labyrinth() {
                 <h1>Winning doesn´t always mean being first. Winning means you´re doing better than you´ve ever done before.</h1>
             </li>
         </ul>
-        <p>Winners:</p>
-        <p>@bolverblitz</p>
+        <div>
+            <p>Winners:</p>
+            <p>@bolverblitz</p>
+        </div>
     </div>
 }
 

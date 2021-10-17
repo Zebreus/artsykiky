@@ -21,12 +21,12 @@ function squidgameRedlightGreenlight () {
                                 <input className={styles.inputCircle, styles.inputCircle5} type="radio" id="circle5" />
                                 <input className={styles.inputCircle, styles.inputCircle6} type="radio" id="circle6" />
     
-                                <label for="circle1" className={styles.pajaro, styles.pajaro1}><span></span></label>
-                                <label for="circle2" className={styles.pajaro, styles.pajaro2}><span></span></label>
-                                <label for="circle3" className={styles.pajaro, styles.pajaro3}><span></span></label>
-                                <label for="circle4" className={styles.pajaro, styles.pajaro4}><span></span></label>
-                                <label for="circle5" className={styles.pajaro, styles.pajaro5}><span></span></label>
-                                <label for="circle6" className={styles.pajaro, styles.pajaro6}><span></span></label>
+                                <label htmlFor="circle1" className={styles.pajaro, styles.pajaro1}><span></span></label>
+                                <label htmlFor="circle2" className={styles.pajaro, styles.pajaro2}><span></span></label>
+                                <label htmlFor="circle3" className={styles.pajaro, styles.pajaro3}><span></span></label>
+                                <label htmlFor="circle4" className={styles.pajaro, styles.pajaro4}><span></span></label>
+                                <label htmlFor="circle5" className={styles.pajaro, styles.pajaro5}><span></span></label>
+                                <label htmlFor="circle6" className={styles.pajaro, styles.pajaro6}><span></span></label>
                             <div className={styles.sum}>SCORE:</div>
     
                         </div>

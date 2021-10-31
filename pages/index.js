@@ -6,6 +6,7 @@ export default function Home() {
     <Link href="/labyrinth">LABYRINTH</Link>
     <Link href="/3Dcube">3Dcube</Link>
     <Link href="/SquidGameRedlightGreenlight">Squid Game Redlight Greenlight</Link>
+    <Link href="/CSSBoxModel">CSS Box Model</Link>
     </>
   )
 }

@@ -139,7 +139,7 @@ function boxmodel () {
                             <p><span className={styles.box38}>overflow:hidden (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.)</span></p>
                             <p><span className={styles.box39}>overflow:scroll (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.)</span></p>
                             <p><span className={styles.box40}>overflow:auto (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.)</span></p>
-                            <p className={styles.mb100}><span className={styles.box41}>overflow:inherit (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.)</span></p>
+                            <p className={styles.pb100}><span className={styles.box41}>overflow:inherit (Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.)</span></p>
                         </div>
                     </div>
 

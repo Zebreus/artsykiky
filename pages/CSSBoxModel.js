@@ -1,13 +1,14 @@
 import  styles  from "../styles/boxmodel.module.scss"
 import  Head from 'next/head'
 
+
 function boxmodel () {
     return <div>
                 <Head>
                     <title>CSS Box Model</title>
                 </Head>
                     <div className={styles.wrapper}>
-                        <div id="slide1">
+                      <div className={styles.slide2}>
                             <h1 className={styles.BoxUeberschrift}>CSS Box Model</h1>
                             <ul>
                                 <li><p>legt CSS Spezifikationen fest</p></li>
@@ -160,3 +161,4 @@ $('#slide1').hide();
         }
     });
 });*/
+

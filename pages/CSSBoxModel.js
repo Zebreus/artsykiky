@@ -8,11 +8,11 @@ function boxmodel () {
                     <title>CSS Box Model</title>
                 </Head>
                     <div className={styles.wrapper}>
-                      <div className={styles.slide2}>
+                      <div className={styles.slide1}>
                             <h1 className={styles.BoxUeberschrift}>CSS Box Model</h1>
                             <ul>
                                 <li><p>legt CSS Spezifikationen fest</p></li>
-                                <li><p>größe HTML-Element basierend auf CSS-Angaben</p></li>
+                                <li><p>Göße HTML-Element basierend auf CSS-Angaben</p></li>
                                 <li><p>Block-Elemente (4 Angaben spielen bei Berechnung eine Rolle)</p></li>
                             </ul>
                             <p><span className={styles.box1}>Inhalt (mit width & height)</span></p>
@@ -26,8 +26,8 @@ function boxmodel () {
                             <ul>
                                 <li><p>Block-Element - gesamte Breite (zur Verfügung)</p></li>
                                 <li><p>mit width & height explizite Größenangaben möglich</p></li>
-                                <li><p>- Box wird in angegebene Richtung begrenzt</p></li>
-                                <li><p>- benötigt Inhalt mehr Platz = Box wächst in andere Richtung</p></li>
+                                <li className={styles.linone}><p>- Box wird in angegebene Richtung begrenzt</p></li>
+                                <li className={styles.linone}><p>- benötigt Inhalt mehr Platz = Box wächst in andere Richtung</p></li>
                             </ul>
                             <p><span  className={styles.box5}>ohne width</span></p>
                             <p><span  className={styles.box6}>mit width</span></p>
@@ -48,7 +48,7 @@ function boxmodel () {
                             <p><span  className={styles.box13}>padding:10px 20px 30px 40px - oben 10px; rechts 20px; unten 30px; links 40px (Uhrzeigersinn)</span></p>
                             <ul>
                                 <li><p>Innenabstände zur Größenangabe hinzuaddiert</p></li>
-                                <li><p>- width:300px & padding:10px = 320px breit</p></li>
+                                <li className={styles.linone}><p>- width:300px & padding:10px = 320px breit</p></li>
                             </ul>
                         </div>
 
@@ -90,7 +90,7 @@ function boxmodel () {
                             <p><span className={styles.box28}>margin insgesamt 20px</span></p>
                             <ul>
                                 <li><p>CSS-Eigenschaften - sorgen dafür, dass vertikale Abstände nicht kolabieren</p></li>
-                                <li><p>- absolut positionierte Elemente (position:absolute, overflow, float oder position:absolute oder display:inline-block</p></li>
+                                <li className={styles.linone}><p>- absolut positionierte Elemente (position:absolute, overflow, float oder position:absolute oder display:inline-block)</p></li>
                             </ul>
                         </div>
 
@@ -109,7 +109,7 @@ function boxmodel () {
                             <ul>
                                 <li><p>border wird zu den 25% dazu addiert</p></li>
                                 <li><p>die 75% haben nicht mehr genügend Platz und wandern nach unten</p></li>
-                                <li><p>deshalb wurde box-sizing:border-box eingeführt</p></li>
+                                <li className={styles.linone}><p>- deshalb wurde box-sizing:border-box eingeführt</p></li>
                                 <li><p>Innenabstände & Rahmenlinien werden von 25% abgezogen</p></li>
                             </ul>
                             <p><span className={styles.box33}>25% des Viewports mit 10px Rahmenlinie abgezogen</span><span className={styles.box34}>75% des Viewports</span></p>
@@ -132,7 +132,7 @@ function boxmodel () {
                         <div className={styles.slide8}>
                             <h2 className={styles.BoxUnterueberschriften}>Überfließende Inhalte steuern</h2>
                             <ul>
-                                <li><p>Normalfall: Element wächt mit Ihnalt mit</p></li>
+                                <li><p>Normalfall: Element wächst mit Inhalt mit</p></li>
                                 <li><p>Verhalten mit CSS ändern zB. wenn width oder height definiert und mehr Inhalt als in Box passt</p></li>
                                 <li><p>overflow legt fest, wie Browser damit umgeht</p></li>
                             </ul>

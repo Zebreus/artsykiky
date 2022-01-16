@@ -1,0 +1,32 @@
+
+
+.wrapper {
+    background-color: mistyrose;
+    min-height: 100vh;
+    font-family: Calibri, Arial;
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 40px;
+    }
+
+    .unterseiten {
+        color: #8B0000;
+        text-decoration: none;
+        font-weight: bolder;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .mt80 {
+        margin-top: 80px;
+    }
+
+    
+}
+
+

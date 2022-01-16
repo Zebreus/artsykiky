@@ -2,6 +2,7 @@ import Link from "next/link"
 import  styles  from "../styles/index.module.scss"
 import  Head from 'next/head'
 import  Image from 'next/image'
+import 'bootstrap/dist/css/bootstrap.css'
 
 
 export default function Home() {

@@ -14,7 +14,7 @@ export default function Home() {
 
     <body>
       <div className={styles.center}>
-        <Image src={Logo} alt="Logo" width={922.5} height={368}/>
+        <Image src={Logo} alt="Logo" width={922.5} height={368} priority/>
       </div>
         <div className={styles.mt80}>
           <p><Link href="/labyrinth" passhref><a className={styles.unterseiten}>LABYRINTH</a></Link></p>
